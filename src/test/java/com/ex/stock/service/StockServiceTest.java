@@ -21,7 +21,7 @@ import static org.junit.Assert.assertEquals;
 public class StockServiceTest {
 
     @Autowired
-    private StockService stockService;
+    private PessimisticLockStockService stockService;
     @Autowired
     private StockRepository stockRepository;
 
