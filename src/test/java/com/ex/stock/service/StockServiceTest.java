@@ -18,7 +18,7 @@ import static org.junit.Assert.assertEquals;
 
 
 @SpringBootTest
-public class StockServiceTest {
+class StockServiceTest {
 
     @Autowired
     private PessimisticLockStockService stockService;
